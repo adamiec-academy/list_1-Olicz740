@@ -1,7 +1,7 @@
 def chess_board(n,k):
     for _ in range(n):
-        for i in range(0,2):
+        for _ in range(k):
             print((" " * k + "#" * k ) * n)
-        for j in range (2,4):
+        for _ in range (k, k + 2):
             print (("#" * k + " " * k ) * n)
 chess_board(4,2)
